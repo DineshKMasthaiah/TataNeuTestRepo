@@ -12,8 +12,10 @@ Wrap widget will move the children to next line if there is not enough space to 
 <img src="https://github.com/DineshKMasthaiah/TataNeuTestRepo/blob/main/question2.png" width="20%" height="20%"/>
 
 As per the Dart coding guideline, Method name should starte with lower case. So,it has been corrected.
-As shown in the screenshot above, If the method is not accessed outside of the class, then it should be made private by prefixing "_" underscore to the method name.
-It was also noticed in the code that this method is returning a string with "how many times a counter has been printed". but in the given code,
+As shown in the screenshot above, If the method is not accessed outside of the class, 
+then it should be made private by prefixing "_" underscore to the method name.
+It was also noticed in the code that this method is returning a string with "how many times a counter has been printed". 
+but in the given code,
 there is no print statement.If this was the original requirement, then, we should add a print statement with in the for loop.
 Apart from these changes, everything looks good.
 
@@ -26,8 +28,8 @@ The list1 is not a constant reference (but list3 is). so, list1 can be assigned 
 ## A. Descriptive Questions:
 
 ### 1. Can we nest the Scaffold widget? Why or Why not?
-    As Scaffold is also a widget, we can use nested Scaffolds.
-    But it not advisable to use nested Scaffolds as Scaffold is a top level, structured Widget (mostly meant to use per app or screen basis, so nesting doesn't make sense).
+    
+    As Scaffold is also a widget, we can use nested Scaffolds. But it not advisable to use nested Scaffolds as Scaffold is a top level, structured Widget (mostly meant to use per app or screen basis, so nesting doesn't make sense).
     One most common use case where we try to nest Scaffolds is in TabBar/TabBarView requirement
     which requires updating the AppBar when user swipes through pages. This can be solved by setting a listener to TabController
     & rebuilding the AppBar
@@ -35,6 +37,7 @@ The list1 is not a constant reference (but list3 is). so, list1 can be assigned 
 ### 2. What are the different ways we can create a custom widget ?
  <b>a).By Composition:</b> Creating complex widget by combining multiple widgets. this way we can reuse the custom widget across our application
  ex:
+```
 class WeatherWidget extends StatefulWidget{
    final int temperature;
    final int humidity;
@@ -57,8 +60,7 @@ class _WeatherWidgetState extends State<WeatherWidget> {
         ));
   }
  }
-
-
+```
 <b>b) Widget by CustomPainter:</b> If we don't get the widget we want by combining multiple widgets, we can use CustomPainter & draw on Canvas.
 
 <b>c) RenderObjects:</b> It's a low level flutter API that helps us to draw the Widgets on Canvas in the same way how flutter framework created its standard Widgets
