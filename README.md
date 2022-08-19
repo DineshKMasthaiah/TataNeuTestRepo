@@ -1,6 +1,7 @@
 # Tata Neu coding test
 
-![alt text](https://github.com/DineshKMasthaiah/TataNeuTestRepo/blob/main/tata_neu_test/device_screen.png)
+<img src="https://github.com/DineshKMasthaiah/TataNeuTestRepo/blob/main/tata_neu_test/device_screen.png" width="20%" height="20%"/>
+
 
 ## A. Descriptive Questions:
 
