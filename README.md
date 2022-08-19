@@ -1,15 +1,15 @@
 # Tata Neu coding test
 
 #### 1.Refactor the code below so that the children will wrap to the next line when the display width is small for them to fit.<br/>
-<img src="https://github.com/DineshKMasthaiah/TataNeuTestRepo/blob/main/question1.png" width="20%" height="20%"/>
+<img src="https://github.com/DineshKMasthaiah/TataNeuTestRepo/blob/main/question1.png" width="50%" height="50%"/>
 
 Wrap widget will move the children to next line if there is not enough space to render them all in single line.
 
-<img src="https://github.com/DineshKMasthaiah/TataNeuTestRepo/blob/main/tata_neu_test/device_screen.png" width="20%" height="20%"/>
+<img src="https://github.com/DineshKMasthaiah/TataNeuTestRepo/blob/main/tata_neu_test/device_screen.png" width="50%" height="50%"/>
  The screenshot above shows the out after making changes to the code to use "Wrap" wiget.
  
 #### 2.Identify the problem in the following code block and correct it.<br/>
-<img src="https://github.com/DineshKMasthaiah/TataNeuTestRepo/blob/main/question2.png" width="20%" height="20%"/>
+<img src="https://github.com/DineshKMasthaiah/TataNeuTestRepo/blob/main/question2.png" width="50%" height="50%"/>
 
 As per the Dart coding guideline, Method name should starte with lower case. So,it has been corrected.
 As shown in the screenshot above, If the method is not accessed outside of the class, 
@@ -20,7 +20,7 @@ there is no print statement.If this was the original requirement, then, we shoul
 Apart from these changes, everything looks good.
 
 #### 3.In the below code, list1 declared with var, list2 with final and list3 with const.What is the difference between these lists? Will the last two lines compile?<br/>
-<img src="https://github.com/DineshKMasthaiah/TataNeuTestRepo/blob/main/question3.png" width="20%" height="20%"/>
+<img src="https://github.com/DineshKMasthaiah/TataNeuTestRepo/blob/main/question3.png" width="50%" height="50%"/>
 As shown in the screenshot above, The line 58 doesn't compile.
 The list1 is not a constant reference (but list3 is). so, list1 can be assigned with any of the new list types.
     So, variables declared with <b>const</b> should be assigned with a constant value (compile time binding)
