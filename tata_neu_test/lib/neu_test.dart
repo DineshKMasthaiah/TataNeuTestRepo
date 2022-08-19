@@ -55,7 +55,7 @@ class _NeuHomeWidgetState extends State<NeuHomeWidget> {
     var list1 = ['I', 'Love', 'Flutter'];
     final list2 = list1;
     list2[2] = "Dart";
-    //const list3 = list1;
+    const list3 = list1;
 
     ///This line doesn't compile as list1 is not a constant reference (where as list3 is). so, list1 can be assigned with any of the new list types
     ///So, variables declared with const should be assigned with constant values (compile time binding)
