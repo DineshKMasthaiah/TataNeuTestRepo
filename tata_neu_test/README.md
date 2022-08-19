@@ -1,5 +1,6 @@
 # Tata Neu coding test
 
+![alt text](https://github.com/[dinesh.masthaiah@gmail.com]/[TataNeuTestRepo]/blob/[master]/device_screen.png?raw=true)
 
 
 ## A. Descriptive Questions:
